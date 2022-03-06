@@ -1,0 +1,6 @@
+Ralph Perlich <rp990@mailbox.org>
+
+autoreconf --install
+./configure
+for release build -> ./configure CFLAGS='-O2'
+make
