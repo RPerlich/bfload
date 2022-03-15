@@ -54,7 +54,7 @@ jobs:
       run: |
         sudo apt update
         sudo apt-get install -y autoconf automake autopoint autotools-dev \
-            gettext libcurl4 meson ninja-build \
+            gettext libcurl4-openssl-dev meson ninja-build \
             libgirepository1.0-dev
             
     # Autobuild attempts to build any compiled languages  (C/C++, C#, or Java).
